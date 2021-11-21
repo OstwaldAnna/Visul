@@ -1,0 +1,112 @@
+﻿<Page x:Class="interfece.pager.Prof"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:interfece.pager"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="900"
+      Title="Prof"
+      Background="White">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="45*"/>
+            <ColumnDefinition Width="88*"/>
+            <ColumnDefinition Width="43*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" 
+                    Grid.Column="0"
+                    Background="#00EA95">
+            <StackPanel VerticalAlignment="Center"
+                        HorizontalAlignment="Center">
+                <StackPanel
+                    Orientation="Horizontal">
+                    <Image Source="/Resourses/Home.png" Height="25" Width="25"
+                       HorizontalAlignment="Left"/>
+                    <Button    
+                FontSize="20"
+                Foreground="Black"
+                Background="#00EA95"
+                BorderBrush="#00EA95"
+                Margin="10"
+                HorizontalContentAlignment="Left">
+                        Главная
+                    </Button>
+                </StackPanel>
+
+                <StackPanel 
+                    Orientation="Horizontal">
+                    <Image Source="/Resourses/contacts.png" Height="25" Width="25"
+                       HorizontalAlignment="Left"/>
+                    <Button
+                FontSize="20"
+                Foreground="Black"
+                Background="#00EA95"
+                BorderBrush="#00EA95"
+                Margin="10"
+                HorizontalContentAlignment="Left">
+                        Контакты
+                    </Button>
+                </StackPanel>
+
+                <StackPanel
+                    Orientation="Horizontal">
+                    <Image Source="/Resourses/cab.png" Height="25" Width="25"
+                       HorizontalAlignment="Left"/>
+                    <Button
+                FontSize="20"
+                Foreground="Black"
+                Background="#00EA95"
+                BorderBrush="#00EA95"
+                Margin="10"
+                HorizontalContentAlignment="Left">
+                        Личный кабинет
+                    </Button>
+                </StackPanel>
+
+                <StackPanel 
+                Orientation="Horizontal">
+                    <Image Source="/Resourses/cross.png" Height="25" Width="25"
+                       HorizontalAlignment="Left"/>
+                    <Button
+                FontSize="20"
+                Foreground="Black"
+                Background="#00EA95"
+                BorderBrush="#00EA95"
+                Margin="10"
+                HorizontalContentAlignment="Left">
+                        Выйти
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" 
+                    Grid.Column="1">
+            <TextBlock
+                FontSize="26"
+                Foreground="Black"
+                Margin="10" 
+                FontWeight="Bold">
+                Контакты
+            </TextBlock>
+            <Border Width="420"
+                    CornerRadius="10" 
+                    Background="#FF00EA95"
+                    Margin="10">
+                <Button 
+                    Background="#00EA95" 
+                    FontSize="20" 
+                    Margin="10" 
+                    BorderBrush="#00EA95"
+                    FontWeight="Bold" 
+                    Height="30">
+                    Войти СберID
+                </Button>
+            </Border>
+
+        </StackPanel>
+
+    </Grid>
+</Page>

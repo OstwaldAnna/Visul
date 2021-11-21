@@ -1,0 +1,218 @@
+﻿<Page x:Class="interfece.pager.ChatsMob"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:interfece.pager"
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="400"
+      Title="ChatsMob"
+      Background="White">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" 
+                    VerticalAlignment="Top" Width="350">
+            <TextBlock  Text="Чаты"
+                        FontSize="40"
+                        FontWeight="Bold"/>
+            <Border         CornerRadius="10"
+                            BorderThickness="3"
+                            BorderBrush="#EDEDED"
+                            Background="#EDEDED"
+                            Margin="10">
+
+                <TextBox    Background="#EDEDED" 
+                            Height="50" 
+                            BorderBrush="Transparent"
+                            FontSize="15" 
+                            Foreground="Black" 
+                            HorizontalContentAlignment="Left" 
+                            VerticalContentAlignment="Center" 
+                            FontWeight="Bold"
+                            Text="Search for messages or users..." />
+            </Border>
+        </StackPanel>
+        <Grid VerticalAlignment="Center"
+              HorizontalAlignment="Center"
+              Margin="40,141,40,475" Width="320" Height="84">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" Margin="5">
+                <Image Source="/Recourse/ava.png" />
+                <TextBlock Text="Илон" HorizontalAlignment="Center" FontWeight="Bold" />
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="5">
+                <Image Source="/Recourse/ava.png" />
+                <TextBlock Text="Джев" HorizontalAlignment="Center" FontWeight="Bold" />
+            </StackPanel>
+            <StackPanel Grid.Column="2" Margin="5">
+                <Image Source="/Recourse/ava.png" />
+                <TextBlock Text="Den@ls" HorizontalAlignment="Center" FontWeight="Bold" />
+            </StackPanel>
+            <StackPanel Grid.Column="3" Margin="5">
+                <Image Source="/Recourse/ava.png" />
+                <TextBlock Text="De34s" HorizontalAlignment="Center" FontWeight="Bold" />
+            </StackPanel>
+            <StackPanel Grid.Column="4" Margin="5">
+                <Image Source="/Recourse/ava.png" />
+                <TextBlock Text="Deuygr3" HorizontalAlignment="Center" FontWeight="Bold" />
+            </StackPanel>
+        </Grid>
+
+        <Grid>
+            <Image Source="/Recourse/green.png" Height="15" Margin="75,185,300,500" />
+            <Image Source="/Recourse/green.png" Height="15" Margin="140,185,235,500" />
+            <Image Source="/Recourse/green.png" Height="15" Margin="205,185,170,500" />
+            <Image Source="/Recourse/green.png" Height="15" Margin="270,185,105,500" />
+        </Grid>
+
+        <Grid VerticalAlignment="Center"
+              Width="350">
+            <StackPanel Orientation="Vertical">
+                <Border 
+                    CornerRadius="10" 
+                    Background="#EDEDED"
+                    Margin="5">
+                    <Button 
+                            Background="#EDEDED" 
+                            FontSize="12" 
+                            Margin="10" 
+                            BorderBrush="#EDEDED"
+                            FontWeight="Bold" 
+                            Height="30"
+                            HorizontalAlignment="Left">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Recourse/ava.png" Width="30"/>
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Text="Илон Маск"
+                                               FontWeight="Bold" 
+                                               FontSize="10"/>
+                                <TextBlock Text="Илон Маск: Privet, poch ignori..." 
+                                               FontSize="9" 
+                                               FontWeight="Normal"/>
+                            </StackPanel>
+                            <Image Source="/Recourse/poits.png"
+                               HorizontalAlignment="Right"
+                               Margin="180,0,0,0"/>
+                        </StackPanel>
+                    </Button>
+                </Border>
+
+                <Border CornerRadius="10" Background="#EDEDED" Margin="5">
+                    <Button 
+                            Background="#EDEDED" 
+                            FontSize="12" 
+                            Margin="10" 
+                            BorderBrush="#EDEDED"
+                            FontWeight="Bold" 
+                            Height="30"
+                            HorizontalAlignment="Left">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Recourse/ava.png" 
+                                   Width="30"/>
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Text="Виктор Кочетков" 
+                                           FontWeight="Bold" 
+                                           FontSize="10"/>
+                                <TextBlock Text="Виктор Кочетков: Privet, poch ignori..." 
+                                           FontSize="9" 
+                                           FontWeight="Normal"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Button>
+                </Border>
+
+                <Border CornerRadius="10" Background="#EDEDED" Margin="5,10">
+                    <Button 
+                            Background="#EDEDED" 
+                            FontSize="12" 
+                            Margin="10" 
+                            BorderBrush="#EDEDED"
+                            FontWeight="Bold" 
+                            Height="30"
+                            HorizontalAlignment="Left">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/Recourse/ava.png" Width="30"/>
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Text="Филипп Пан" 
+                                       FontWeight="Bold" 
+                                       FontSize="10"/>
+                                <TextBlock Text="Филипп Пан: Privet, poch ignori..." 
+                                       FontSize="9" 
+                                       FontWeight="Normal"/>
+                            </StackPanel>
+                            <Image Source="/Recourse/poits.png"
+                               HorizontalAlignment="Right"
+                               Margin="180,0,0,0"/>
+                        </StackPanel>
+                    </Button>
+                </Border>
+            </StackPanel>
+        </Grid>
+        
+        <Grid  Panel.ZIndex="1">
+            <Image Source="/Recourse/green.png" Height="15" Width="15" Margin="356,255,28,430" />
+            <TextBlock  Text="99"
+                        FontSize="10"
+                        HorizontalAlignment="Center"
+                        FontWeight="Bold" Margin="358,255,30,430" Width="12"/>
+            <Image Source="/Recourse/green.png" Height="15" Width="15" Margin="355,315,30,370" />
+            <TextBlock  Text="4"
+                        FontSize="10"
+                        HorizontalAlignment="Center"
+                        FontWeight="Bold" 
+                        Margin="360,315,28,370" 
+                        Width="12"/>
+        </Grid>
+        
+        <Grid>
+            <StackPanel>
+                <TextBlock  Text="10:34 am" 
+                            FontSize="10" 
+                            FontWeight="Normal" 
+                            Height="20" 
+                            Margin="302,270,52,200" 
+                            Width="45"/>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock  Text="9:25 am" 
+                            FontSize="10" 
+                            FontWeight="Normal" 
+                            Height="20" 
+                            Margin="302,327,52,200" 
+                            Width="45"/>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock  Text="08:05 am" 
+                            FontSize="10" 
+                            FontWeight="Normal" 
+                            Height="20" 
+                            Margin="302,395,52,200" 
+                            Width="45"/>
+            </StackPanel>
+        </Grid>
+        
+        <Grid
+            Background="#07CC85"
+            Height="50"
+            Width="400"
+            VerticalAlignment="Bottom">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Image Source="/Recourse/Home.png" Grid.Column="0" Width="40"/>
+            <Image Source="/Recourse/contacts.png" Grid.Column="1" Width="40"/>
+            <Image Source="/Recourse/profile.png" Grid.Column="2" Width="40"/>
+            <Image Source="/Recourse/cross.png" Grid.Column="3" Width="40"/>
+        </Grid>
+
+    </Grid>
+</Page>
