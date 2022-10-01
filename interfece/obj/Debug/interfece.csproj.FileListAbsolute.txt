@@ -73,3 +73,42 @@ C:\Users\Asya\Desktop\колледж\Уч. Пр. Макиевский\interfece\
 C:\Users\Asya\Desktop\колледж\Уч. Пр. Макиевский\interfece\interfece\obj\Debug\pager\EditingMob.baml
 C:\Users\Asya\Desktop\колледж\Уч. Пр. Макиевский\interfece\interfece\obj\Debug\pager\EnterMob.baml
 C:\Users\Asya\Desktop\колледж\Уч. Пр. Макиевский\interfece\interfece\obj\Debug\pager\ProffMod.baml
+C:\Users\Asya\Documents\GitHub\Visul\interfece\bin\Debug\interfece.exe.config
+C:\Users\Asya\Documents\GitHub\Visul\interfece\bin\Debug\interfece.exe
+C:\Users\Asya\Documents\GitHub\Visul\interfece\bin\Debug\interfece.pdb
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\interfece.csproj.AssemblyReference.cache
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\MainWindow.g.cs
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\aftoris.g.cs
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\chats.g.cs
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\ChatsMob.g.cs
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\Editing.g.cs
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\EditingMob.g.cs
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\Enter.g.cs
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\EnterMob.g.cs
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\LetterMob.g.cs
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\Proff.g.cs
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\ProffMod.g.cs
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\Regg.g.cs
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\ReggMob.g.cs
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\App.g.cs
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\interfece_MarkupCompile.cache
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\interfece_MarkupCompile.lref
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\MainWindow.baml
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\aftoris.baml
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\chats.baml
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\ChatsMob.baml
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\Editing.baml
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\EditingMob.baml
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\Enter.baml
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\EnterMob.baml
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\LetterMob.baml
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\Proff.baml
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\ProffMod.baml
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\Regg.baml
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\pager\ReggMob.baml
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\interfece.g.resources
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\interfece.Properties.Resources.resources
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\interfece.csproj.GenerateResource.cache
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\interfece.csproj.CoreCompileInputs.cache
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\interfece.exe
+C:\Users\Asya\Documents\GitHub\Visul\interfece\obj\Debug\interfece.pdb
